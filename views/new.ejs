@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <title>Adicionar nova pessoa</title>
+</head>
+
+<body>
+    <div class="centro-add-pessoa">
+        <h2 class="add-pessoa">Adicionar uma nova pessoa</h2>
+        <form class="formulario" action="/pessoas" method="post">
+            <label for="cpf">CPF</label><br>
+            <input type="text" name="cpf" id="cpf">
+            <br><br>
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+            <label for="dataNasc">Nascimento</label><br>
+            <input type="text" name="dataNasc" id="dataNasc">
+            <br><br>
+            <label for="email">E-mail</label><br>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+
+            <button class="botao-enviar">Enviar</button>
+            <br>
+        </form>
+        <a href="/pessoas"><button class="botao-voltar">Voltar</button></a>
+    </div>
+</body>
+
+</html>

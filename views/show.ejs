@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <title>Detalhes</title>
+</head>
+
+<body>
+    <div class="centro-detalhes">
+        <h2>Detalhes da pessoa</h2>
+        <% if(pessoa) { %>
+            <div class="details-pessoas">
+                
+                <p><strong>Nome:</strong>
+                    <%= pessoa.nome %>
+                </p>
+                <p><strong>CPF:</strong>
+                    <%= pessoa.cpf %>
+                </p>
+                <p><strong>E-mail:</strong>
+                    <%= pessoa.email %>
+                </p>
+                <p><strong>Data de Nascimento:</strong>
+                    <%= pessoa.dataNasc %>
+                </p>
+                <br>
+                
+               <div class="botoes">
+                <a href="/pessoas/<%= pessoa._id %>/edit"><button class="botao-alterar">Alterar</button></a>
+
+                <form action="/pessoas/<%=pessoa._id%>?_method=DELETE" method="post">
+                    <button class="botao-apagar">Apagar</button>
+                </form> <br>
+               </div>
+
+                <a href="/pessoas"><button class="botao-voltar">Voltar</button></a>
+            </div>
+            <% } else { %>
+                <p>Não foi encontrado nenhuma pessoa dessa espécie!</p>
+                <% } %>
+    </div>
+</body>
+
+</html>

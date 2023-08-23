@@ -1,0 +1,152 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    background: url(../image/pexels-andrea-piacquadio-3830880.jpg) no-repeat;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Marcellus', serif;
+}
+
+.centro-edit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    padding-top:10px;
+    font-size: 1.2rem;
+}
+
+.centro-add-pessoa {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    font-size: 1.2rem;
+}
+
+.centro-add-pessoa .formulario {
+    font-size: 1.2rem;
+}
+
+.centro-pessoas {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 380px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    
+}
+
+.centro-pessoas .nomes {
+    font-size: 1.5rem;
+   
+}
+.nomes:hover{
+    transition: 0.2s;
+    opacity: 0.7;
+}
+
+.centro-detalhes {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 480px;
+    height: 440px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+.centro-detalhes .botoes{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.details-pessoas {
+    font-size: 20px;
+}
+
+.botao-adicionar,
+.botao-enviar,
+.botao-alterar,
+.botao-apagar {
+    background-color: #e29578;
+    color: white;
+    border: 0px;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 2px;
+
+}
+
+.botao-voltar {
+    position: absolute;
+    z-index: 1;
+    right: 10rem;
+    padding: 2px;
+    margin-top: 5px;
+    background-color: #005670;
+    color: #ffffff;
+    border: 0px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+    color: #000000;
+}
+
+input{
+    padding: 5px;
+    border: #c5c5c5 solid thin ;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #6b6b6b;
+    font-family: 'Marcellus', serif;
+}
+
+
