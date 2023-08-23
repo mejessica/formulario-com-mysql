@@ -1,6 +1,6 @@
 # Projeto formulário com rotasRESTful e Mysql
 
-Projeto feito para treinar o aprendizado de rotas RESTful e utiliza do banco mysql para guardar os dados inseridos no formulário
+Projeto feito para treinar o aprendizado de rotas RESTfull e utiliza do banco mysql para guardar os dados inseridos no formulário
 
 ### Tecnologias utilizadas 
 - EJS
