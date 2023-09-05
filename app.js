@@ -8,6 +8,7 @@ app.set('views', './views');
 app.use(express.urlencoded({extended: true}));
 app.use(methodOverride('_method'));
 app.use(express.static('./public'))
+const router = express.Router();
 
 connection.connect((err) => {
     if (err) {
@@ -16,6 +17,16 @@ connection.connect((err) => {
         console.log("conectado ao banco")
     }
 })
+
+//validação de input
+router.get('/', function(req, res, next) {
+    res.json([]);
+  });
+  
+  router.post('/', (request, response) => {
+    response.json(request.body);
+  })
+//
 
 app.get("/", (req, res) => {
     res.redirect("/pessoas")
