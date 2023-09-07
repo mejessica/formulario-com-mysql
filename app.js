@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const methodOverride = require("method-override");
-const connection = require('./db.js')
+const connection = require('./db.js');
 
 app.set("view engine", "ejs");
 app.set('views', './views');
