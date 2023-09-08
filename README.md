@@ -52,7 +52,7 @@ Para rodar o servidor e a conexão com o banco.
 
 Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para ver o resultado!
 
->Caso queira apenas olha ro código pode ignorar a etapa "abrir e rodar projeto"
+>Caso queira apenas olhar o código, pode ignorar a etapa "abrir e rodar projeto".
 
 >Mas caso você queira ver apenas o resultado final, segue abaixo:
 ## Final 
