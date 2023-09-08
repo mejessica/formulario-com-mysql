@@ -60,5 +60,4 @@ Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para 
 
 <iframe src="https://drive.google.com/file/d/16yZrH5-EJaqvgzjJrGdPNx96Ip0rLaB4/preview" width="640" height="480"></iframe>
 
-
 > Ao final, apenas encerre a conexão como feito anteriormente e clique em stop no XAMPP. 
