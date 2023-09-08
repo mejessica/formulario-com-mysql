@@ -59,6 +59,6 @@ Agora basta abrir seu navegador preferido e digitar: http://localhost:3000 para 
 >Mas caso você queira ver apenas o resultado final, segue abaixo:
 ## Final 
 
-<iframe src="https://drive.google.com/file/d/16yZrH5-EJaqvgzjJrGdPNx96Ip0rLaB4/preview" width="640" height="480"></iframe>
-
+![pessoas1 (1)](https://github.com/mejessica/formulario-com-mysql/assets/82670472/b16cf98b-14bc-4c7c-9159-2d954f26639d)
+![pessoas2 (1)](https://github.com/mejessica/formulario-com-mysql/assets/82670472/f7e72df8-1105-4c92-91ba-9b0e3ac46d59)
 
